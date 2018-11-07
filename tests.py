@@ -1,6 +1,6 @@
 
 # 自己写字符串strip()方法
-def right_strip(tempStr, splitStr):
+def right_strip(tempStr, splitStr): 
     endindex = tempStr.rfind(splitStr)
     while endindex != -1 and endindex == len(tempStr) - 1:
         # 和strip一样，对两边的字符才能做到去除的效果，所以这里需要判断，分割的字符是不是被分割字符串的两边的字符
