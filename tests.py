@@ -10,7 +10,7 @@ def right_strip(tempStr, splitStr):
     return tempStr
 
 
-print(right_strip("sdfhhhs", "h"))
+print(right_strip("sdfhhhs", "h"))  
 
 
 def left_strip(tempStr, splitStr):
